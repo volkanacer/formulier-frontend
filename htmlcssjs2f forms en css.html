@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+	<title>Forms en CSS</title>
+	<meta name="description" content="Forms en CSS">
+	<meta name="author" content="Volkan Acer">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<!--<script defer type="text/javascript" src="js/main.js"></script>-->
+</head>
+
+<body>
+	<div class="headerDiv">
+		<header>Forms en CSS</header>
+	</div>
+
+	<br />
+
+	<div class="formDiv">
+
+		<form method="get" action="#">
+			<label for="keuze">Kies uit het volgende:</label>
+			<select id="keuze" name="keuze">
+				<option value="keuze1">keuze1</option>
+				<option value="keuze2">keuze2</option>
+				<option value="keuze3">keuze3</option>
+				<option value="keuze4">keuze4</option>
+			</select>
+		</form>
+
+		<br />
+
+		<form method="get" action="#" name="my-form">
+			<label for="Voornaam">
+				Voornaam&#x2a;
+			</label>
+
+			<br />
+
+			<input type="text"
+				   name="voornaam"
+				   id="voornaam"
+				   required="" />
+
+			<br />
+
+
+			<label for="Telefoonnummer">
+				Telefoonnummer&#x2a;
+			</label>
+
+			<br />
+
+			<input type="text"
+				   name="Telefoonnummer"
+				   id="Telefoonnummer"
+				   required="" />
+
+			<br />
+
+			<label for="Email">
+				Email&#x2a;
+			</label>
+
+			<br />
+
+			<input type="email"
+				   name="Email"
+				   id="Email"
+				   required="" />
+
+			<br />
+
+			<label for="Ordernummer">
+				Ordernummer&#x2a;
+			</label>
+
+			<br />
+
+			<input type="text"
+				   name="Ordernummer"
+				   id="Ordernummer"
+				   required="" />
+
+			<br />
+			<br />
+
+			<textarea name="message" rows="6" cols="50" required="">Uw bericht..</textarea>
+
+			<br />
+
+
+			<input type="button"
+				   name="submit-form"
+				   id="submit-btn"
+				   value="Indienen" />
+
+		</form>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
